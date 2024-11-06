@@ -27,7 +27,7 @@ public class CustoValidationApplication implements CommandLineRunner{
 		u.setName("Pratik");
 		
 		userRepo.save(u);
-		
+		System.out.println("Hello");
 	}
 
 }
